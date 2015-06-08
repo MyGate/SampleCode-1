@@ -1,0 +1,8 @@
+﻿<xmlField>
+  <applicationUID>ECEE6D30-5365-4AE1-90C4-C397EEB480CD</applicationUID>
+  <transactionAuth>
+    <transactionIndex>'.$transactionID.'</transactionIndex>
+  </transactionAuth>
+  <merchantReference>123456789012347</merchantReference>
+  <terminal>Terminal1 - David</terminal>
+</xmlField>
