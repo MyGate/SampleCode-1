@@ -6,13 +6,13 @@
 </head>
 <body>
 
-<!---production = "https://virtual.mygateglobal.com/8x0x0/dsp_ecommerceparent.cfm" --->
+<!---production = "https://virtual.mygateglobal.com/PaymentPage.cfm" --->
 <!---0 = Test Mode. 1 = Live Mode--->
 
 <cfset MerchantReference="" />
 
 <h1>My Virtual Example</h1>
-<form name="PostTest"  onSubmit="return chkTerms()" action="https://virtual.mygateglobal.com/8x0x0/dsp_ecommerceparent.cfm" method="post">
+<form name="PostTest"  onSubmit="return chkTerms()" action="https://virtual.mygateglobal.com/PaymentPage.cfm" method="post">
         <table width="800" border="0" cellpadding="0" cellspacing="0" bordercolor="#f8f9e8"  style="background-image: url())">
             <tr valign="top"> 
                 <td height="500">
