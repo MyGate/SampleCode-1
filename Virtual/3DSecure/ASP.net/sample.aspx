@@ -30,7 +30,7 @@
 <%
 //Setting variables for use in the webservice invokation...
 
-string URL = "https://virtual.mygateglobal.com/8x0x0/dsp_ecommerceparent.cfm";
+string URL = "https://virtual.mygateglobal.com/PaymentPage.cfm";
 
 //0 = testing, 1 = live
 string TransactionMode = "0";
@@ -51,8 +51,8 @@ string RedirectFailed = "http://localhost/SampleCode/Virtual/ASP.net/processResu
 
 <h1>My Virtual Example</h1>
 
-<!--- Change the URL https://virtual.mygateglobal.com/8x0x0/dsp_ecommerceparent.cfm --->
-<form name="PostTest"  onSubmit="return chkTerms()" action="https://virtual.mygateglobal.com/8x0x0/dsp_ecommerceparent.cfm" method="post">
+<!--- Change the URL https://virtual.mygateglobal.com/PaymentPage.cfm --->
+<form name="PostTest"  onSubmit="return chkTerms()" action="https://virtual.mygateglobal.com/PaymentPage.cfm" method="post">
         <table width="800" border="0" cellpadding="0" cellspacing="0" bordercolor="#f8f9e8"  style="background-image: url())">
             <tr valign="top"> 
                 <td height="500">
