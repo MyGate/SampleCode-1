@@ -7,7 +7,7 @@
 											<cardNumber>4111111111111111</cardNumber>
 											<expiryMonth>02</expiryMonth>
 											<expiryYear>2021</expiryYear>
-											<cvNumber>123</cvNumber>
+											<cvvNumber>123</cvvNumber>
 										  </cardDetails>
 										  <amount>12.34</amount>
 										  <billingDetails>

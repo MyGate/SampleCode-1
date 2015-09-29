@@ -1,5 +1,5 @@
 ﻿<xmlField>
-  <applicationUID>ECEE6D30-5365-4AE1-90C4-C397EEB480CD</applicationUID>
+  <applicationUID>5A02E47D-7E2E-452B-A940-E3E946265037</applicationUID>
   <transactionAuth>
     <transactionIndex>'.$transactionID.'</transactionIndex>
   </transactionAuth>
