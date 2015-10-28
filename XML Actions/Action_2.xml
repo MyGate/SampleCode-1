@@ -1,8 +1,17 @@
 ﻿<xmlField>
+<<<<<<< HEAD
 	<applicationUID>{applicationUID}</applicationUID>
 	<transactionAuth>
 		<transactionIndex>{transactionIndex}</transactionIndex>
 	</transactionAuth>
 	<merchantReference>{merchantReference}</merchantReference>
 	<terminal>Till_21</terminal>
+=======
+  <applicationUID>5A02E47D-7E2E-452B-A940-E3E946265037</applicationUID>
+  <transactionAuth>
+    <transactionIndex></transactionIndex>
+  </transactionAuth>
+  <merchantReference>123456789012347</merchantReference>
+  <terminal>Terminal - Grant</terminal>
+>>>>>>> origin/master
 </xmlField>

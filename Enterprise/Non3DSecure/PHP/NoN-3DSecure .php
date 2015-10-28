@@ -28,7 +28,7 @@ try
 				<cardNumber>4111111111111111</cardNumber>
 				<expiryMonth>03</expiryMonth>
 				<expiryYear>2020</expiryYear>
-				<cvNumber>123</cvNumber>
+				<cvvNumber>123</cvvNumber>
 			</cardDetails>
 			<amount>12.34</amount>
 			<billingDetails>
