@@ -13,5 +13,6 @@
   </transactionAuth>
   <merchantReference>123456789012347</merchantReference>
   <terminal>Terminal</terminal>
+  <amount>1024.63</amount>
 >>>>>>> origin/master
 </xmlField>
