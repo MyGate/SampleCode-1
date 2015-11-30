@@ -52,10 +52,10 @@ $RedirectFailed = "http://localhost/Sample/php/processResults.php";
                     <input type="hidden" name="txtMerchantID" value="F5785ECF-1EAE-40A0-9D37-93E2E8A4BAB3">
                     <input type="hidden" name="txtApplicationID" value="1DBBBAAE-958E-4346-A27A-6BB5171CEEDC">
                     <input type="hidden" name="txtPrice" value="1.23">
-                    <input type="hidden" name="txtCurrencyCode" value="USD">
+					<input type="hidden" name="txtCurrencyCode" value="USD">
                     <!--- change to your live/test environment URLs --->
-					<input type="hidden" name="txtRedirectSuccessfulURL" value="http://localhost/Sample/ASP.net/processResults.aspx">
-                    <input type="hidden" name="txtRedirectFailedURL" value="http://localhost/Sample/ASP.net/processResults.aspx">
+					<input type="hidden" name="txtRedirectSuccessfulURL" value="http://localhost:8888/test/processResults.php">
+                    <input type="hidden" name="txtRedirectFailedURL" value="http://localhost:8888/test/processResults.php">
                     <input type="hidden" name="TXTDISCOUNT" value="0">
                     <input type="hidden" name="TXTITEMAMOUNT1" value="89">
                     <input type="hidden" name="TXTITEMAMOUNT2" value="30">
