@@ -1,5 +1,4 @@
-﻿<xmlField>
-<<<<<<< HEAD
+<xmlField>
 	<applicationUID>{applicationUID}</applicationUID>
 	<transactionAuth>
 		<transactionIndex>{transactionIndex}</transactionIndex>
@@ -11,126 +10,58 @@
 		<customerID>A132452345</customerID>
 		<invoiceID>INV_1234</invoiceID>
 		<contact>
-			<firstName>Test</firstName>
-			<lastName>Test</lastName>
-			<company>Test</company>
-			<contactNumber>Test</contactNumber>
-			<email>Test</email>
+			<firstName>firstName</firstName>
+			<lastName>lastName</lastName>
+			<company>company</company>
+			<contactNumber>contactNumber</contactNumber>
+			<email>support@mygateglobal.com</email>
 		</contact>
 		<address>
-			<address1>Test</address1>
-			<address2>Test</address2>
-			<address3>Test</address3>
-			<suburb>Test</suburb>
-			<city>Test</city>
-			<postalCode>Test</postalCode>
+			<address1>address1</address1>
+			<address2>address2</address2>
+			<address3>address3</address3>
+			<suburb>suburb</suburb>
+			<city>city</city>
+			<postalCode>12345</postalCode>
 			<country>ZA</country>
 		</address>
 	</billingDetails>
 	<shippingDetails>
 		<contact>
-			<firstName>Test</firstName>
-			<lastName>Test</lastName>
-			<company>Test</company>
-			<contactNumber>Test</contactNumber>
-			<email>Test</email>
+			<firstName>firstName</firstName>
+			<lastName>lastName</lastName>
+			<company>company</company>
+			<contactNumber>contactNumber</contactNumber>
+			<email>support@mygateglobal.com</email>
 		</contact>
 		<address>
-			<address1>Test</address1>
-			<address2>Test</address2>
-			<address3>Test</address3>
-			<suburb>Test</suburb>
-			<city>Test</city>
-			<postalCode>Test</postalCode>
+			<address1>address1</address1>
+			<address2>address2</address2>
+			<address3>address3</address3>
+			<suburb>suburb</suburb>
+			<city>city</city>
+			<postalCode>12345</postalCode>
 			<country>ZA</country>
 		</address>
 	</shippingDetails>
 	<salesItems>
 		<item>
-			<description>Test</description>
-			<unitPrice>Test</unitPrice>
-			<quantity>Test</quantity>
-			<totalAmount>Test</totalAmount>
+			<description>Tomatoes</description>
+			<unitPrice>10.00</unitPrice>
+			<quantity>1</quantity>
+			<totalAmount>10.00</totalAmount>
 		</item>
 		<item>
-			<description>Test</description>
-			<unitPrice>Test</unitPrice>
-			<quantity>Test</quantity>
-			<totalAmount>Test</totalAmount>
+			<description>Tomatoes</description>
+			<unitPrice>10.00</unitPrice>
+			<quantity>1</quantity>
+			<totalAmount>10.00</totalAmount>
 		</item>
 		<item>
-			<description>Test</description>
-			<unitPrice>Test</unitPrice>
-			<quantity>Test</quantity>
-			<totalAmount>Test</totalAmount>
+			<description>Tomatoes</description>
+			<unitPrice>10.00</unitPrice>
+			<quantity>1</quantity>
+			<totalAmount>10.00</totalAmount>
 		</item>
 	</salesItems>
 </xmlField>
-=======
-  <applicationUID>5A02E47D-7E2E-452B-A940-E3E946265037</applicationUID>
-  <transactionAuth>
-    <transactionIndex></transactionIndex>
-  </transactionAuth>
-  <merchantReference>123456789012347</merchantReference>
-  <terminal>Terminal - Parker</terminal>
-  <amount>12.34</amount>
-  <billingDetails>
-    <customerID>A132452345</customerID>
-    <invoiceID>INV_1234</invoiceID>
-    <contact>
-      <firstName>Test</firstName>
-      <lastName>Test</lastName>
-      <company>Test</company>
-      <contactNumber>Test</contactNumber>
-      <email>Test</email>
-    </contact>
-    <address>
-      <address1>Test</address1>
-      <address2>Test</address2>
-      <address3>Test</address3>
-      <suburb>Test</suburb>
-      <city>Test</city>
-      <postalCode>Test</postalCode>
-      <country>ZA</country>
-    </address>
-  </billingDetails>
-  <shippingDetails>
-    <contact>
-      <firstName>Test</firstName>
-      <lastName>Test</lastName>
-      <company>Test</company>
-      <contactNumber>Test</contactNumber>
-      <email>Test</email>
-    </contact>
-    <address>
-      <address1>Test</address1>
-      <address2>Test</address2>
-      <address3>Test</address3>
-      <suburb>Test</suburb>
-      <city>Test</city>
-      <postalCode>Test</postalCode>
-      <country>ZA</country>
-    </address>
-  </shippingDetails>
-  <salesItems>
-    <item>
-      <description>Test</description>
-      <unitPrice>Test</unitPrice>
-      <quantity>Test</quantity>
-      <totalAmount>Test</totalAmount>
-    </item>
-    <item>
-      <description>Test</description>
-      <unitPrice>Test</unitPrice>
-      <quantity>Test</quantity>
-      <totalAmount>Test</totalAmount>
-    </item>
-    <item>
-      <description>Test</description>
-      <unitPrice>Test</unitPrice>
-      <quantity>Test</quantity>
-      <totalAmount>Test</totalAmount>
-    </item>
-  </salesItems>
-  </xmlField>
->>>>>>> origin/master

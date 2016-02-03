@@ -1,7 +1,0 @@
-<xmlField>
-	<reportFilter>
-		<transactionIndex>{transactionIndex}</transactionIndex>
-		<!-- <merchantReference>{merchantReference}</merchantReference> -->
-	</reportFilter>
-	<terminal>Till_23</terminal>
-</xmlField>
