@@ -578,10 +578,8 @@ try
 	var_dump ( $arrResults->status );
 	echo '<br> uidTransactionIndex: ';
 	var_dump ( $arrResults->uidTransactionIndex );
-	echo '<br> dtRequestReceived: ';
-	var_dump ( $arrResults->dtRequestReceived );
-	echo '<br> dtResponseSent: ';
-	var_dump ( $arrResults->dtResponseSent );
+	echo '<br> Transaction Time: ';
+	var_dump ( $arrResults->TransactionDateTime );
 	echo '<br> warnings: ';
 	var_dump ( $arrResults->warnings );
 	echo '<br> errors: ';

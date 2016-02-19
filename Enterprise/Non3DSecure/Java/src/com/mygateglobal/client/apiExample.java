@@ -64,7 +64,7 @@ public class apiExample
 //		19		Reports
 //		20		Visa Checkout - Decrypt		
 		
-		authHeader.setActionTypeID("20");
+		authHeader.setActionTypeID("1");
 
 		String actionXML = getActionXML("https://api.mygateglobal.com/api/xmlactions/action_"+ authHeader.getActionTypeID() +".xml");
 		
@@ -106,8 +106,7 @@ public class apiExample
 		System.out.println("\n\nResponse:");
 		System.out.println("Status: " + apiResponse.getStatus());
 		System.out.println("Transaction Index: " + apiResponse.getUidTransactionIndex());
-		System.out.println("Request Received: " + apiResponse.getDtRequestReceived());
-		System.out.println("Response Sent: " + apiResponse.getDtResponseSent());
+		System.out.println("Transaction Time: " + apiResponse.getTransactionDateTime());
 		if (apiResponse.getStatus().equals("-1"))
 		{
 			System.out.println("Failed");

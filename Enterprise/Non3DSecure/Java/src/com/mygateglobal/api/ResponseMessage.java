@@ -20,8 +20,7 @@ import javax.xml.bind.annotation.XmlType;
  *       &lt;sequence>
  *         &lt;element name="status" type="{http://www.w3.org/2001/XMLSchema}string"/>
  *         &lt;element name="uidTransactionIndex" type="{http://www.w3.org/2001/XMLSchema}string"/>
- *         &lt;element name="dtRequestReceived" type="{http://www.w3.org/2001/XMLSchema}string"/>
- *         &lt;element name="dtResponseSent" type="{http://www.w3.org/2001/XMLSchema}string"/>
+ *         &lt;element name="TransactionDateTime" type="{http://www.w3.org/2001/XMLSchema}string"/>
  *         &lt;element name="warnings" type="{https://api.mygateglobal.com/}resWarning" minOccurs="0"/>
  *         &lt;element name="errors" type="{https://api.mygateglobal.com/}resError" minOccurs="0"/>
  *         &lt;element name="mgMessage" type="{https://api.mygateglobal.com/}resMGMessage" minOccurs="0"/>
@@ -41,8 +40,7 @@ import javax.xml.bind.annotation.XmlType;
 @XmlType(name = "", propOrder = {
     "status",
     "uidTransactionIndex",
-    "dtRequestReceived",
-    "dtResponseSent",
+    "transactionDateTime",
     "warnings",
     "errors",
     "mgMessage",
@@ -58,10 +56,8 @@ public class ResponseMessage {
     protected String status;
     @XmlElement(required = true)
     protected String uidTransactionIndex;
-    @XmlElement(required = true)
-    protected String dtRequestReceived;
-    @XmlElement(required = true)
-    protected String dtResponseSent;
+    @XmlElement(name = "TransactionDateTime", required = true)
+    protected String transactionDateTime;
     protected ResWarning warnings;
     protected ResError errors;
     protected ResMGMessage mgMessage;
@@ -119,51 +115,27 @@ public class ResponseMessage {
     }
 
     /**
-     * Gets the value of the dtRequestReceived property.
+     * Gets the value of the transactionDateTime property.
      * 
      * @return
      *     possible object is
      *     {@link String }
      *     
      */
-    public String getDtRequestReceived() {
-        return dtRequestReceived;
+    public String getTransactionDateTime() {
+        return transactionDateTime;
     }
 
     /**
-     * Sets the value of the dtRequestReceived property.
+     * Sets the value of the transactionDateTime property.
      * 
      * @param value
      *     allowed object is
      *     {@link String }
      *     
      */
-    public void setDtRequestReceived(String value) {
-        this.dtRequestReceived = value;
-    }
-
-    /**
-     * Gets the value of the dtResponseSent property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getDtResponseSent() {
-        return dtResponseSent;
-    }
-
-    /**
-     * Sets the value of the dtResponseSent property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setDtResponseSent(String value) {
-        this.dtResponseSent = value;
+    public void setTransactionDateTime(String value) {
+        this.transactionDateTime = value;
     }
 
     /**
