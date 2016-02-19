@@ -13,7 +13,7 @@
 
 <h1>My Virtual Example</h1>
 <form name="PostTest"  onSubmit="return chkTerms()" action="https://virtual.mygateglobal.com/PaymentPage.cfm" method="post">
-        <table width="800" border="0" cellpadding="0" cellspacing="0" bordercolor="#f8f9e8"  style="background-image: url())">
+        <table width="800" border="0" cellpadding="0" cellspacing="0" bordercolor="##f8f9e8"  style="background-image: url())">
             <tr valign="top"> 
                 <td height="500">
                     <table border="0">
@@ -33,7 +33,7 @@
                             <th align="left">Merchant Reference : </th>
                             <td width="5">&nbsp;</td>
                             <td>
-                                <input type="text" id="txtMerchantReference" name="txtMerchantReference" value="My Merchant Ref #">
+                                <input type="text" id="txtMerchantReference" name="txtMerchantReference" value="My Merchant Ref :">
                             </td>
                         </tr>
                     </table>
