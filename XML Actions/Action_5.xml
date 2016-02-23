@@ -1,10 +1,10 @@
  <xmlField>
 	<mode>{mode}</mode>
 	<applicationUID>{applicationUID}</applicationUID>
-	<!-- Required for 3D Secure 
+	<!-- Required for 3D Secure -->
 	<transactionAuth>
 		<transactionIndex>{transactionIndex}</transactionIndex>
-	</transactionAuth> -->
+	</transactionAuth>
 	<merchantReference>{merchantReference}</merchantReference>
 	<cardDetails>
 		<cardHolder>{cardHolder}</cardHolder>

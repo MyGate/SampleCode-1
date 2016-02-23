@@ -73,7 +73,7 @@ public class apiExample
 		String mode = "0";
 		//String applicationUID_3d = "5A02E47D-7E2E-452B-A940-E3E946265037";
 		String applicationUID_non3d = "A06033E6-43CF-471A-A985-E16442ED1FFF";
-		String transactionIndex = "6ECD7045-1C7B-45C3-8D3E-8D8086A8A64C";
+		String transactionIndex = "00000000-0000-0000-0000-000000000000";
 		String merchantReference = "Test_Ref1";
 		String cardHolder = "Test Card";
 		String cardNumber = "4111111111111111";
