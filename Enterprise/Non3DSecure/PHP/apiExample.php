@@ -10,25 +10,16 @@ try
 	//$applicationUID = "5A02E47D-7E2E-452B-A940-E3E946265037";	// 3D Secure
 	$applicationUID = "A06033E6-43CF-471A-A985-E16442ED1FFF";	// Non 3D Secure
 
-	//		Action	Action Name
+        //		Action	Action Name
 	//		1		Authorise
 	//		2		Authorise - Reversal
 	//		3		Capture
 	//		4		Credits (Follow-On)
 	//		5		Sale
-	//		6		Void - Capture
-	//		7		Void - Credit (Follow-On)
-	//		8		Void - Credit (Stand-Alone)
-	//		9		Capture (With Auth)
-	//		10		Credit - Capture (With Auth)
-	//		11		Credits (Stand-Alone)
 	//		12		Credits - Sale
-	//		13		Void - Credit (Sale)
 	//		14		ThreeD Secure - Lookup
 	//		15		ThreeD Secure - Authenticate
-	//		16		Void - Sale
 	//		19		Reports
-	//		20		Visa Checkout - Decrypt
 	
 	$actionTypeID = '1';
 	
