@@ -16,19 +16,10 @@ try
 	//		3		Capture
 	//		4		Credits (Follow-On)
 	//		5		Sale
-	//		6		Void - Capture
-	//		7		Void - Credit (Follow-On)
-	//		8		Void - Credit (Stand-Alone)
-	//		9		Capture (With Auth)
-	//		10		Credit - Capture (With Auth)
-	//		11		Credits (Stand-Alone)
 	//		12		Credits - Sale
-	//		13		Void - Credit (Sale)
 	//		14		ThreeD Secure - Lookup
 	//		15		ThreeD Secure - Authenticate
-	//		16		Void - Sale
 	//		19		Reports
-	//		20		Visa Checkout - Decrypt
 	
 	$actionTypeID = '1';
 	
